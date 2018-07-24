@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C9333D782D3671A029D1B3 /* libPods-GoogleWebRTCDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5717E441F993731430442C /* libPods-GoogleWebRTCDemoApp.a */; };
 		160DE13B20F5E032006B5BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 160DE13A20F5E032006B5BFE /* AppDelegate.m */; };
 		160DE13E20F5E032006B5BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160DE13D20F5E032006B5BFE /* ViewController.m */; };
 		160DE14120F5E032006B5BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160DE13F20F5E032006B5BFE /* Main.storyboard */; };
@@ -26,6 +27,9 @@
 		160DE14520F5E034006B5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160DE14720F5E034006B5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160DE14820F5E034006B5BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29DEC31BD02E88B8A54B1040 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleWebRTCDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		3A5717E441F993731430442C /* libPods-GoogleWebRTCDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleWebRTCDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757EFEA00304AABFAFD390EE /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleWebRTCDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C9333D782D3671A029D1B3 /* libPods-GoogleWebRTCDemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				160DE13820F5E032006B5BFE /* GoogleWebRTCDemoApp */,
 				160DE13720F5E032006B5BFE /* Products */,
+				C53FF80C13A49F1DC969623B /* Pods */,
+				7A4901B770B4A4E3733B5A02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,23 @@
 			path = GoogleWebRTCDemoApp;
 			sourceTree = "<group>";
 		};
+		7A4901B770B4A4E3733B5A02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5717E441F993731430442C /* libPods-GoogleWebRTCDemoApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53FF80C13A49F1DC969623B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				757EFEA00304AABFAFD390EE /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */,
+				29DEC31BD02E88B8A54B1040 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 160DE14C20F5E034006B5BFE /* Build configuration list for PBXNativeTarget "GoogleWebRTCDemoApp" */;
 			buildPhases = (
+				0E79640D56FACE1AE142B97A /* [CP] Check Pods Manifest.lock */,
 				160DE13220F5E032006B5BFE /* Sources */,
 				160DE13320F5E032006B5BFE /* Frameworks */,
 				160DE13420F5E032006B5BFE /* Resources */,
+				B420090B306AB3E0EF145677 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E79640D56FACE1AE142B97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleWebRTCDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B420090B306AB3E0EF145677 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		160DE13220F5E032006B5BFE /* Sources */ = {
@@ -281,11 +346,14 @@
 		};
 		160DE14D20F5E034006B5BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757EFEA00304AABFAFD390EE /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GoogleWebRTCDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +366,14 @@
 		};
 		160DE14E20F5E034006B5BFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DEC31BD02E88B8A54B1040 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3DV85RL7V3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GoogleWebRTCDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
