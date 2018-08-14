@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B01B780308CCB32E8C7341CF537970DA"
-               BlueprintName = "Pods-GoogleWebRTCDemoApp"
+               BlueprintIdentifier = "684B15A95BA9DEE66E662B4377CA76C2"
+               BlueprintName = "SocketRocket"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-GoogleWebRTCDemoApp.a">
+               BuildableName = "libSocketRocket.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

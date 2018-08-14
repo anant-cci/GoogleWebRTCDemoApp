@@ -8,5 +8,6 @@ target 'GoogleWebRTCDemoApp' do
   # Pods for GoogleWebRTCDemoApp
   pod 'GoogleWebRTC'
   pod 'libjingle_peerconnection'
+  pod 'SocketRocket'
 
 end

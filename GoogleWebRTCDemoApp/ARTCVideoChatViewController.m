@@ -8,7 +8,7 @@
 
 #import "ARTCVideoChatViewController.h"
 #import <libjingle_peerconnection/RTCEAGLVideoView.h>
-//#import <AppRTC/ARDAppClient.h>
+#import <AppRTC/ARDAppClient.h>
 #import <GoogleWebRTC/WebRTC/WebRTC.h>
 #import <AVFoundation/AVFoundation.h>
 

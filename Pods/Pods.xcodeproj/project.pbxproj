@@ -7,55 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A2F7E940624A51FE5996A0C2E9004E8 /* Pods-GoogleWebRTCDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F2023C6DDF437CBAE3EDA9AB784420 /* Pods-GoogleWebRTCDemoApp-dummy.m */; };
+		38C6FFF99876FC38BA8E321AB4BC1619 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FC1AC96DA7DD22659914F52A8F39FB /* SRWebSocket.m */; };
+		42D131032BCBBAE3F31731229CEB2329 /* Pods-GoogleWebRTCDemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F2023C6DDF437CBAE3EDA9AB784420 /* Pods-GoogleWebRTCDemoApp-dummy.m */; };
+		42E5A4A62F2E6266430C95DE9B39AA70 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */; };
+		50948EFDFD43D754076CAD0D96C4BC75 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */; };
+		70E14DD82E0B4F0E64E9A6FC96B1126D /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D38BABFC0045ED891B616DE082F5F /* SocketRocket-dummy.m */; };
+		A2F416C480040296799CAFDBBB7FE57B /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = A0679D14DF6FF47A1F4B3CE20A32347C /* SRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF7DF08DA3C1D3757C6401D83BF9CEAC /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5C005D0DCC1E57BC8C72CEFE7501E8 /* SocketRocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		21967D70B721E199CF718DD5BD6E93D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684B15A95BA9DEE66E662B4377CA76C2;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		126425950D25451F834B928D0D6CDA97 /* RTCI420Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCI420Frame.h; path = libjingle_peerconnection/Headers/RTCI420Frame.h; sourceTree = "<group>"; };
+		03CD03F0CED0408C432CCF436A1AF33B /* RTCVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = libjingle_peerconnection/Headers/RTCVideoSource.h; sourceTree = "<group>"; };
+		040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0830BAF79C04BA81903BFEAE7F82D3F9 /* RTCPeerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = libjingle_peerconnection/Headers/RTCPeerConnection.h; sourceTree = "<group>"; };
+		11D557B1D52B05509155D79FDF71D7CE /* RTCMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = libjingle_peerconnection/Headers/RTCMediaConstraints.h; sourceTree = "<group>"; };
+		138528F0F25015ADEEBB2546D8466B0E /* RTCSessionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = libjingle_peerconnection/Headers/RTCSessionDescription.h; sourceTree = "<group>"; };
+		1AAD1D610FD1F59758C7153BC510B88D /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCNSGLVideoView.h; path = libjingle_peerconnection/Headers/RTCNSGLVideoView.h; sourceTree = "<group>"; };
 		1E85D753F3DF8AFC33B3CDD14036A128 /* Pods-GoogleWebRTCDemoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleWebRTCDemoApp-resources.sh"; sourceTree = "<group>"; };
-		21A0B68C3B3B71177DF0C1BF5199D450 /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionInterface.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
-		2D2EE888ABF79AE532F54CE31D03B051 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = libjingle_peerconnection/Headers/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
+		2CF86002D352D1E5DA1A3D43B829D0A3 /* RTCFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFileLogger.h; path = libjingle_peerconnection/Headers/RTCFileLogger.h; sourceTree = "<group>"; };
 		2D92BAFFCF79176B7AF2C059F96903BF /* Pods-GoogleWebRTCDemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleWebRTCDemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		332049C4B1EC5C3FF3BDFCD5C97B4A04 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = libjingle_peerconnection/Headers/RTCVideoCapturer.h; sourceTree = "<group>"; };
-		3450508110A1FF054BCF111D150C07F0 /* RTCTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCTypes.h; path = libjingle_peerconnection/Headers/RTCTypes.h; sourceTree = "<group>"; };
-		3527ABA597ADA2592F583CB39166DBFE /* RTCAudioSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = libjingle_peerconnection/Headers/RTCAudioSource.h; sourceTree = "<group>"; };
-		374B28AB173DF06F60E1968F9BBC4168 /* RTCPeerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnection.h; path = libjingle_peerconnection/Headers/RTCPeerConnection.h; sourceTree = "<group>"; };
-		3E37BE1F7AA80D05A292DD9CC272195B /* RTCSessionDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescription.h; path = libjingle_peerconnection/Headers/RTCSessionDescription.h; sourceTree = "<group>"; };
-		45293B46E3BF2A13C5597AA1B9E61F46 /* RTCMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = libjingle_peerconnection/Headers/RTCMediaSource.h; sourceTree = "<group>"; };
-		45C72EC28C4278223F083EA6CF9BA902 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAVFoundationVideoSource.h; path = libjingle_peerconnection/Headers/RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
-		4AA73C4CBC1CD98BE5FCE917B61D1686 /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionDelegate.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
-		4ECE6B2CCE812C462E96B7D832ACBD76 /* RTCMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = libjingle_peerconnection/Headers/RTCMediaStream.h; sourceTree = "<group>"; };
-		57B1189A97F34510A41A6B74CBFBA155 /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		32AC0373143851126548F30875A97106 /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAVFoundationVideoSource.h; path = libjingle_peerconnection/Headers/RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
+		393026BF0131134E1D364F5AE725041E /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		3C5C06931324C4742E43C091C649A095 /* RTCPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPair.h; path = libjingle_peerconnection/Headers/RTCPair.h; sourceTree = "<group>"; };
+		3FE2E49648DDDECC3764B8BF8448697C /* RTCStatsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCStatsDelegate.h; path = libjingle_peerconnection/Headers/RTCStatsDelegate.h; sourceTree = "<group>"; };
+		460807495453F78F4597B21123A2DDCF /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionDelegate.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
+		49991F447EFB5C8D7BBDF094D25597CE /* RTCDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = libjingle_peerconnection/Headers/RTCDataChannel.h; sourceTree = "<group>"; };
+		4D57181F337F74DC0D54816DFDCCEE8A /* RTCI420Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCI420Frame.h; path = libjingle_peerconnection/Headers/RTCI420Frame.h; sourceTree = "<group>"; };
+		5BC5D09607EE266763AA49158B2B6371 /* RTCICEServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCICEServer.h; path = libjingle_peerconnection/Headers/RTCICEServer.h; sourceTree = "<group>"; };
+		6061589027834D6B30620613C2E2A4D6 /* RTCICECandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCICECandidate.h; path = libjingle_peerconnection/Headers/RTCICECandidate.h; sourceTree = "<group>"; };
+		6159AB5D88B8F08296B4F8E874315A12 /* RTCVideoCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoCapturer.h; path = libjingle_peerconnection/Headers/RTCVideoCapturer.h; sourceTree = "<group>"; };
+		62B2EA5BE1B7BC7174916CEDC5BC1108 /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStreamTrack.h; path = libjingle_peerconnection/Headers/RTCMediaStreamTrack.h; sourceTree = "<group>"; };
 		64FE1E4DF69855B8FFD7DED2538DA123 /* Pods-GoogleWebRTCDemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleWebRTCDemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6EDC6399DF50DAF90F30B15715295481 /* libWebRTC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWebRTC.a; path = libjingle_peerconnection/libWebRTC.a; sourceTree = "<group>"; };
-		6F71AE59F3653303F991F8CF23352F9B /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCNSGLVideoView.h; path = libjingle_peerconnection/Headers/RTCNSGLVideoView.h; sourceTree = "<group>"; };
+		6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		741C3455661BA50EEB9DD3E1E7B84998 /* RTCTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCTypes.h; path = libjingle_peerconnection/Headers/RTCTypes.h; sourceTree = "<group>"; };
 		85F2023C6DDF437CBAE3EDA9AB784420 /* Pods-GoogleWebRTCDemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleWebRTCDemoApp-dummy.m"; sourceTree = "<group>"; };
-		87489E2917026E273EABAE72C065575C /* RTCICECandidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCICECandidate.h; path = libjingle_peerconnection/Headers/RTCICECandidate.h; sourceTree = "<group>"; };
-		892DC7346D6A04FAEFD790F432285FF0 /* RTCVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = libjingle_peerconnection/Headers/RTCVideoTrack.h; sourceTree = "<group>"; };
-		8C055C77C3F150D789506CEF032A5AEE /* RTCVideoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoSource.h; path = libjingle_peerconnection/Headers/RTCVideoSource.h; sourceTree = "<group>"; };
+		87C45A2947848D7B1DA2B451B2639CA9 /* libWebRTC.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWebRTC.a; path = libjingle_peerconnection/libWebRTC.a; sourceTree = "<group>"; };
 		8F75DDE6B26D859E40D32869A0014B66 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleWebRTCDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		977627FEA4C8900350448E6A64081847 /* RTCStatsDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCStatsDelegate.h; path = libjingle_peerconnection/Headers/RTCStatsDelegate.h; sourceTree = "<group>"; };
-		98273B5B85FF5B1B78D3CC31BDC9016C /* RTCPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPair.h; path = libjingle_peerconnection/Headers/RTCPair.h; sourceTree = "<group>"; };
-		9EFD5A23CCAE355CAEAF3B74C68474EE /* RTCDataChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCDataChannel.h; path = libjingle_peerconnection/Headers/RTCDataChannel.h; sourceTree = "<group>"; };
-		A05FC34A7ECB5B9F9EDD778812281BD5 /* RTCFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCFileLogger.h; path = libjingle_peerconnection/Headers/RTCFileLogger.h; sourceTree = "<group>"; };
-		A1CF0F0C6F03F22749CB521DAB4D7692 /* RTCICEServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCICEServer.h; path = libjingle_peerconnection/Headers/RTCICEServer.h; sourceTree = "<group>"; };
+		97BC0C0CD9393A9CDBAFAF97E8B883DA /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionFactory.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
+		983E2B6365D578EBA0200B2D724F0B25 /* RTCAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = libjingle_peerconnection/Headers/RTCAudioTrack.h; sourceTree = "<group>"; };
+		990C60CDD0B3A16F6EC64063653067D8 /* RTCAudioSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioSource.h; path = libjingle_peerconnection/Headers/RTCAudioSource.h; sourceTree = "<group>"; };
+		9C096DAC728BD46CD1E4BF94DF7E3349 /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCOpenGLVideoRenderer.h; path = libjingle_peerconnection/Headers/RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
+		9EB6E06E5D4AEB827F1132B39A4C8B82 /* libPods-GoogleWebRTCDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GoogleWebRTCDemoApp.a"; path = "libPods-GoogleWebRTCDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0679D14DF6FF47A1F4B3CE20A32347C /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
 		A5116EAD0BE37F8BC1AF052727BD55D7 /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleWebRTCDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BAD7910187B2AFD7705F6E638662A698 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = libjingle_peerconnection/Headers/RTCEAGLVideoView.h; sourceTree = "<group>"; };
-		C0142B66197D8AC6F28556179E887727 /* RTCStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCStatsReport.h; path = libjingle_peerconnection/Headers/RTCStatsReport.h; sourceTree = "<group>"; };
-		D00014DD15356590EB60F9BC5A1F5DA5 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescriptionDelegate.h; path = libjingle_peerconnection/Headers/RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
-		D4476F26C54630B4157D9B1498D33DA8 /* RTCLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLogging.h; path = libjingle_peerconnection/Headers/RTCLogging.h; sourceTree = "<group>"; };
-		D5CBF67C4F68611942C802CDE6EB15C0 /* RTCAudioTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCAudioTrack.h; path = libjingle_peerconnection/Headers/RTCAudioTrack.h; sourceTree = "<group>"; };
+		A8764EE8F53F671427E980AC1E039ADA /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA08E64F2A1E62266B781685B924C4B7 /* RTCStatsReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCStatsReport.h; path = libjingle_peerconnection/Headers/RTCStatsReport.h; sourceTree = "<group>"; };
+		B5B409A00AA37F378172271A68F60762 /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCSessionDescriptionDelegate.h; path = libjingle_peerconnection/Headers/RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
+		C7D3568F454D1A115769976C7C86C493 /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCPeerConnectionInterface.h; path = libjingle_peerconnection/Headers/RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
+		C8F587C15BEE9099DBB20EEF3C8749DB /* RTCVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = libjingle_peerconnection/Headers/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		D0525F170AD572EAA971C39F37976EE7 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
 		E868DDD3CC37859B7AD0D145291B79BB /* Pods-GoogleWebRTCDemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleWebRTCDemoApp-frameworks.sh"; sourceTree = "<group>"; };
-		F411D1921F15DB4BEAA511B7C73B700C /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
-		F5C839B6EFB4E6DB36840650A5799E6C /* RTCMediaConstraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaConstraints.h; path = libjingle_peerconnection/Headers/RTCMediaConstraints.h; sourceTree = "<group>"; };
-		F98B29A8AB4A0B883CF6F5D5F064E45C /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCOpenGLVideoRenderer.h; path = libjingle_peerconnection/Headers/RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
-		FA1F975302D581183A70035607035442 /* libPods-GoogleWebRTCDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GoogleWebRTCDemoApp.a"; path = "libPods-GoogleWebRTCDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBCCF147A3053261C8264F1DB8E0656C /* RTCVideoRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoRenderer.h; path = libjingle_peerconnection/Headers/RTCVideoRenderer.h; sourceTree = "<group>"; };
+		F02B10F644BBE39AF3D24F072D28DA69 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		F1011B717A652F381E2269985F889CF9 /* RTCMediaSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaSource.h; path = libjingle_peerconnection/Headers/RTCMediaSource.h; sourceTree = "<group>"; };
+		F42D38BABFC0045ED891B616DE082F5F /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		F537F7B033C247CD0D787E8D046BBF64 /* RTCLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCLogging.h; path = libjingle_peerconnection/Headers/RTCLogging.h; sourceTree = "<group>"; };
+		F6D90DDFE48F59620369FB45F601C153 /* RTCVideoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCVideoTrack.h; path = libjingle_peerconnection/Headers/RTCVideoTrack.h; sourceTree = "<group>"; };
+		F9FC1AC96DA7DD22659914F52A8F39FB /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		FA32E2C29D6081F43F230B2FFD4DFFD5 /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCEAGLVideoView.h; path = libjingle_peerconnection/Headers/RTCEAGLVideoView.h; sourceTree = "<group>"; };
+		FA381CE0B8C2EF38AB737FBF8A8E46DA /* RTCMediaStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTCMediaStream.h; path = libjingle_peerconnection/Headers/RTCMediaStream.h; sourceTree = "<group>"; };
+		FC5C005D0DCC1E57BC8C72CEFE7501E8 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E0059B319E310BE5D64BB0753993AA8 /* Frameworks */ = {
+		963DAF49DE76C73C465B638DCD6D5432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E5A4A62F2E6266430C95DE9B39AA70 /* CFNetwork.framework in Frameworks */,
+				50948EFDFD43D754076CAD0D96C4BC75 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C276F877E38C7B12841D2B704EBF9394 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,13 +99,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3AFE0F4D1DAC6FD04AA87D54CF67F281 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +107,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3C1BDBC3C119C69BF582FC47F5E6FD0E /* Products */ = {
+		4244E14CBEDBCE143581B10E8D17E363 /* libjingle_peerconnection */ = {
 			isa = PBXGroup;
 			children = (
-				FA1F975302D581183A70035607035442 /* libPods-GoogleWebRTCDemoApp.a */,
+				990C60CDD0B3A16F6EC64063653067D8 /* RTCAudioSource.h */,
+				983E2B6365D578EBA0200B2D724F0B25 /* RTCAudioTrack.h */,
+				32AC0373143851126548F30875A97106 /* RTCAVFoundationVideoSource.h */,
+				49991F447EFB5C8D7BBDF094D25597CE /* RTCDataChannel.h */,
+				FA32E2C29D6081F43F230B2FFD4DFFD5 /* RTCEAGLVideoView.h */,
+				2CF86002D352D1E5DA1A3D43B829D0A3 /* RTCFileLogger.h */,
+				4D57181F337F74DC0D54816DFDCCEE8A /* RTCI420Frame.h */,
+				6061589027834D6B30620613C2E2A4D6 /* RTCICECandidate.h */,
+				5BC5D09607EE266763AA49158B2B6371 /* RTCICEServer.h */,
+				F537F7B033C247CD0D787E8D046BBF64 /* RTCLogging.h */,
+				11D557B1D52B05509155D79FDF71D7CE /* RTCMediaConstraints.h */,
+				F1011B717A652F381E2269985F889CF9 /* RTCMediaSource.h */,
+				FA381CE0B8C2EF38AB737FBF8A8E46DA /* RTCMediaStream.h */,
+				62B2EA5BE1B7BC7174916CEDC5BC1108 /* RTCMediaStreamTrack.h */,
+				1AAD1D610FD1F59758C7153BC510B88D /* RTCNSGLVideoView.h */,
+				9C096DAC728BD46CD1E4BF94DF7E3349 /* RTCOpenGLVideoRenderer.h */,
+				3C5C06931324C4742E43C091C649A095 /* RTCPair.h */,
+				0830BAF79C04BA81903BFEAE7F82D3F9 /* RTCPeerConnection.h */,
+				460807495453F78F4597B21123A2DDCF /* RTCPeerConnectionDelegate.h */,
+				97BC0C0CD9393A9CDBAFAF97E8B883DA /* RTCPeerConnectionFactory.h */,
+				C7D3568F454D1A115769976C7C86C493 /* RTCPeerConnectionInterface.h */,
+				138528F0F25015ADEEBB2546D8466B0E /* RTCSessionDescription.h */,
+				B5B409A00AA37F378172271A68F60762 /* RTCSessionDescriptionDelegate.h */,
+				3FE2E49648DDDECC3764B8BF8448697C /* RTCStatsDelegate.h */,
+				AA08E64F2A1E62266B781685B924C4B7 /* RTCStatsReport.h */,
+				741C3455661BA50EEB9DD3E1E7B84998 /* RTCTypes.h */,
+				6159AB5D88B8F08296B4F8E874315A12 /* RTCVideoCapturer.h */,
+				C8F587C15BEE9099DBB20EEF3C8749DB /* RTCVideoRenderer.h */,
+				03CD03F0CED0408C432CCF436A1AF33B /* RTCVideoSource.h */,
+				F6D90DDFE48F59620369FB45F601C153 /* RTCVideoTrack.h */,
+				E8AA971CB818ED6FA5FB05469AACE5A3 /* Frameworks */,
 			);
-			name = Products;
+			name = libjingle_peerconnection;
+			path = libjingle_peerconnection;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9730336350BD3AFA2FC69E6EDFE235C /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		54B10F5C302DABFCDFEADDF827EEAF14 /* Pods-GoogleWebRTCDemoApp */ = {
@@ -103,10 +169,10 @@
 			path = "Target Support Files/Pods-GoogleWebRTCDemoApp";
 			sourceTree = "<group>";
 		};
-		6972180567CC938A1244F9D13D42F48D /* Frameworks */ = {
+		6F1C303B53632DF91F6C735AE25AE650 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F411D1921F15DB4BEAA511B7C73B700C /* WebRTC.framework */,
+				393026BF0131134E1D364F5AE725041E /* WebRTC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,95 +181,128 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				F37AFCA7AC65FA68F19DA64027D8B16D /* Pods */,
-				3C1BDBC3C119C69BF582FC47F5E6FD0E /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A896C9AF94BC3D9C075D3C5E45EB1AFE /* Pods */,
+				BE650D43712C7FC0727E17DAA6469717 /* Products */,
 				3AFE0F4D1DAC6FD04AA87D54CF67F281 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8E6D8E3566A7D66588100F8993FCB768 /* Frameworks */ = {
+		888D093954E9ABC8359228EE2FED6B66 /* GoogleWebRTC */ = {
 			isa = PBXGroup;
 			children = (
-				6EDC6399DF50DAF90F30B15715295481 /* libWebRTC.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AFF1D4C4DA8659519901F40ECE89C6FE /* GoogleWebRTC */ = {
-			isa = PBXGroup;
-			children = (
-				6972180567CC938A1244F9D13D42F48D /* Frameworks */,
+				6F1C303B53632DF91F6C735AE25AE650 /* Frameworks */,
 			);
 			name = GoogleWebRTC;
 			path = GoogleWebRTC;
 			sourceTree = "<group>";
 		};
-		C6484063856615116EDE796B6D54A74A /* libjingle_peerconnection */ = {
+		8D767D8578F09AC8481C5633A5E3B854 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3527ABA597ADA2592F583CB39166DBFE /* RTCAudioSource.h */,
-				D5CBF67C4F68611942C802CDE6EB15C0 /* RTCAudioTrack.h */,
-				45C72EC28C4278223F083EA6CF9BA902 /* RTCAVFoundationVideoSource.h */,
-				9EFD5A23CCAE355CAEAF3B74C68474EE /* RTCDataChannel.h */,
-				BAD7910187B2AFD7705F6E638662A698 /* RTCEAGLVideoView.h */,
-				A05FC34A7ECB5B9F9EDD778812281BD5 /* RTCFileLogger.h */,
-				126425950D25451F834B928D0D6CDA97 /* RTCI420Frame.h */,
-				87489E2917026E273EABAE72C065575C /* RTCICECandidate.h */,
-				A1CF0F0C6F03F22749CB521DAB4D7692 /* RTCICEServer.h */,
-				D4476F26C54630B4157D9B1498D33DA8 /* RTCLogging.h */,
-				F5C839B6EFB4E6DB36840650A5799E6C /* RTCMediaConstraints.h */,
-				45293B46E3BF2A13C5597AA1B9E61F46 /* RTCMediaSource.h */,
-				4ECE6B2CCE812C462E96B7D832ACBD76 /* RTCMediaStream.h */,
-				2D2EE888ABF79AE532F54CE31D03B051 /* RTCMediaStreamTrack.h */,
-				6F71AE59F3653303F991F8CF23352F9B /* RTCNSGLVideoView.h */,
-				F98B29A8AB4A0B883CF6F5D5F064E45C /* RTCOpenGLVideoRenderer.h */,
-				98273B5B85FF5B1B78D3CC31BDC9016C /* RTCPair.h */,
-				374B28AB173DF06F60E1968F9BBC4168 /* RTCPeerConnection.h */,
-				4AA73C4CBC1CD98BE5FCE917B61D1686 /* RTCPeerConnectionDelegate.h */,
-				57B1189A97F34510A41A6B74CBFBA155 /* RTCPeerConnectionFactory.h */,
-				21A0B68C3B3B71177DF0C1BF5199D450 /* RTCPeerConnectionInterface.h */,
-				3E37BE1F7AA80D05A292DD9CC272195B /* RTCSessionDescription.h */,
-				D00014DD15356590EB60F9BC5A1F5DA5 /* RTCSessionDescriptionDelegate.h */,
-				977627FEA4C8900350448E6A64081847 /* RTCStatsDelegate.h */,
-				C0142B66197D8AC6F28556179E887727 /* RTCStatsReport.h */,
-				3450508110A1FF054BCF111D150C07F0 /* RTCTypes.h */,
-				332049C4B1EC5C3FF3BDFCD5C97B4A04 /* RTCVideoCapturer.h */,
-				FBCCF147A3053261C8264F1DB8E0656C /* RTCVideoRenderer.h */,
-				8C055C77C3F150D789506CEF032A5AEE /* RTCVideoSource.h */,
-				892DC7346D6A04FAEFD790F432285FF0 /* RTCVideoTrack.h */,
-				8E6D8E3566A7D66588100F8993FCB768 /* Frameworks */,
+				F02B10F644BBE39AF3D24F072D28DA69 /* SocketRocket.xcconfig */,
+				F42D38BABFC0045ED891B616DE082F5F /* SocketRocket-dummy.m */,
+				D0525F170AD572EAA971C39F37976EE7 /* SocketRocket-prefix.pch */,
 			);
-			name = libjingle_peerconnection;
-			path = libjingle_peerconnection;
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
 			sourceTree = "<group>";
 		};
-		F37AFCA7AC65FA68F19DA64027D8B16D /* Pods */ = {
+		A896C9AF94BC3D9C075D3C5E45EB1AFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFF1D4C4DA8659519901F40ECE89C6FE /* GoogleWebRTC */,
-				C6484063856615116EDE796B6D54A74A /* libjingle_peerconnection */,
+				888D093954E9ABC8359228EE2FED6B66 /* GoogleWebRTC */,
+				4244E14CBEDBCE143581B10E8D17E363 /* libjingle_peerconnection */,
+				EAFB15B156A524CF3ED5713D13C56DCA /* SocketRocket */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B9730336350BD3AFA2FC69E6EDFE235C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8953913F771FEE4DB535ABE96F8C5 /* CFNetwork.framework */,
+				040DA2653C94F96FDEAE767C9EDAEE30 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE650D43712C7FC0727E17DAA6469717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6E06E5D4AEB827F1132B39A4C8B82 /* libPods-GoogleWebRTCDemoApp.a */,
+				A8764EE8F53F671427E980AC1E039ADA /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AA971CB818ED6FA5FB05469AACE5A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87C45A2947848D7B1DA2B451B2639CA9 /* libWebRTC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFB15B156A524CF3ED5713D13C56DCA /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				FC5C005D0DCC1E57BC8C72CEFE7501E8 /* SocketRocket.h */,
+				A0679D14DF6FF47A1F4B3CE20A32347C /* SRWebSocket.h */,
+				F9FC1AC96DA7DD22659914F52A8F39FB /* SRWebSocket.m */,
+				8D767D8578F09AC8481C5633A5E3B854 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BFC62BFEF89912FCD3E554EFEED5093B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7DF08DA3C1D3757C6401D83BF9CEAC /* SocketRocket.h in Headers */,
+				A2F416C480040296799CAFDBBB7FE57B /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B989FD4AF09BD266466C92B95ED29A95 /* Pods-GoogleWebRTCDemoApp */ = {
+		684B15A95BA9DEE66E662B4377CA76C2 /* SocketRocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDDC359628F7F1D52E0696E45F081FEA /* Build configuration list for PBXNativeTarget "Pods-GoogleWebRTCDemoApp" */;
+			buildConfigurationList = 20AA675417E061BE704E574F32A19C7E /* Build configuration list for PBXNativeTarget "SocketRocket" */;
 			buildPhases = (
-				B3877B87C09604793ACE192AF2364EA3 /* Sources */,
-				3E0059B319E310BE5D64BB0753993AA8 /* Frameworks */,
+				40940561171C3AEE67E2DA60765769D0 /* Sources */,
+				963DAF49DE76C73C465B638DCD6D5432 /* Frameworks */,
+				BFC62BFEF89912FCD3E554EFEED5093B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = A8764EE8F53F671427E980AC1E039ADA /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B01B780308CCB32E8C7341CF537970DA /* Pods-GoogleWebRTCDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9E3C262EA82CB53B51EF73E36BA92C /* Build configuration list for PBXNativeTarget "Pods-GoogleWebRTCDemoApp" */;
+			buildPhases = (
+				4310083E5A8CB979A3D7CA2338B2FAFB /* Sources */,
+				C276F877E38C7B12841D2B704EBF9394 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54D95AE9438BB72B0F104CD2EFA56EC /* PBXTargetDependency */,
+			);
 			name = "Pods-GoogleWebRTCDemoApp";
 			productName = "Pods-GoogleWebRTCDemoApp";
-			productReference = FA1F975302D581183A70035607035442 /* libPods-GoogleWebRTCDemoApp.a */;
+			productReference = 9EB6E06E5D4AEB827F1132B39A4C8B82 /* libPods-GoogleWebRTCDemoApp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -223,48 +322,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3C1BDBC3C119C69BF582FC47F5E6FD0E /* Products */;
+			productRefGroup = BE650D43712C7FC0727E17DAA6469717 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B989FD4AF09BD266466C92B95ED29A95 /* Pods-GoogleWebRTCDemoApp */,
+				B01B780308CCB32E8C7341CF537970DA /* Pods-GoogleWebRTCDemoApp */,
+				684B15A95BA9DEE66E662B4377CA76C2 /* SocketRocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3877B87C09604793ACE192AF2364EA3 /* Sources */ = {
+		40940561171C3AEE67E2DA60765769D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A2F7E940624A51FE5996A0C2E9004E8 /* Pods-GoogleWebRTCDemoApp-dummy.m in Sources */,
+				70E14DD82E0B4F0E64E9A6FC96B1126D /* SocketRocket-dummy.m in Sources */,
+				38C6FFF99876FC38BA8E321AB4BC1619 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4310083E5A8CB979A3D7CA2338B2FAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D131032BCBBAE3F31731229CEB2329 /* Pods-GoogleWebRTCDemoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		0658496E32C070209DABD5889DF93E38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5116EAD0BE37F8BC1AF052727BD55D7 /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
+/* Begin PBXTargetDependency section */
+		F54D95AE9438BB72B0F104CD2EFA56EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 684B15A95BA9DEE66E662B4377CA76C2 /* SocketRocket */;
+			targetProxy = 21967D70B721E199CF718DD5BD6E93D4 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,7 +425,28 @@
 			};
 			name = Debug;
 		};
-		B8B2D6D0C3C9D3EA2F7F5FA08D56661A /* Release */ = {
+		41C5471121F9AFCA1F9970F39FF4A1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5116EAD0BE37F8BC1AF052727BD55D7 /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2072E70F3B83ACF51FD7B919D871B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F75DDE6B26D859E40D32869A0014B66 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */;
 			buildSettings = {
@@ -349,6 +467,53 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A492D2EA7B08F00CA29E205A11B8E774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02B10F644BBE39AF3D24F072D28DA69 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0C34593F4933744F9B7A68F2899B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02B10F644BBE39AF3D24F072D28DA69 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -411,20 +576,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D9E3C262EA82CB53B51EF73E36BA92C /* Build configuration list for PBXNativeTarget "Pods-GoogleWebRTCDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C5471121F9AFCA1F9970F39FF4A1A7 /* Debug */,
+				5A2072E70F3B83ACF51FD7B919D871B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20AA675417E061BE704E574F32A19C7E /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C34593F4933744F9B7A68F2899B81 /* Debug */,
+				A492D2EA7B08F00CA29E205A11B8E774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BDDC359628F7F1D52E0696E45F081FEA /* Build configuration list for PBXNativeTarget "Pods-GoogleWebRTCDemoApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0658496E32C070209DABD5889DF93E38 /* Debug */,
-				B8B2D6D0C3C9D3EA2F7F5FA08D56661A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
