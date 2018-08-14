@@ -14,6 +14,7 @@
 		160DE14320F5E034006B5BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160DE14220F5E034006B5BFE /* Assets.xcassets */; };
 		160DE14620F5E034006B5BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160DE14420F5E034006B5BFE /* LaunchScreen.storyboard */; };
 		160DE14920F5E034006B5BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 160DE14820F5E034006B5BFE /* main.m */; };
+		16D1409F2122B37E001C3273 /* ARTCVideoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D1409D2122B37E001C3273 /* ARTCVideoChatViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		160DE14520F5E034006B5BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		160DE14720F5E034006B5BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160DE14820F5E034006B5BFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16D1409D2122B37E001C3273 /* ARTCVideoChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTCVideoChatViewController.m; sourceTree = "<group>"; };
+		16D1409E2122B37E001C3273 /* ARTCVideoChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTCVideoChatViewController.h; sourceTree = "<group>"; };
 		29DEC31BD02E88B8A54B1040 /* Pods-GoogleWebRTCDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleWebRTCDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		3A5717E441F993731430442C /* libPods-GoogleWebRTCDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleWebRTCDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		757EFEA00304AABFAFD390EE /* Pods-GoogleWebRTCDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleWebRTCDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleWebRTCDemoApp/Pods-GoogleWebRTCDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				160DE13A20F5E032006B5BFE /* AppDelegate.m */,
 				160DE13C20F5E032006B5BFE /* ViewController.h */,
 				160DE13D20F5E032006B5BFE /* ViewController.m */,
+				16D1409E2122B37E001C3273 /* ARTCVideoChatViewController.h */,
+				16D1409D2122B37E001C3273 /* ARTCVideoChatViewController.m */,
 				160DE13F20F5E032006B5BFE /* Main.storyboard */,
 				160DE14220F5E034006B5BFE /* Assets.xcassets */,
 				160DE14420F5E034006B5BFE /* LaunchScreen.storyboard */,
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D1409F2122B37E001C3273 /* ARTCVideoChatViewController.m in Sources */,
 				160DE13E20F5E032006B5BFE /* ViewController.m in Sources */,
 				160DE14920F5E034006B5BFE /* main.m in Sources */,
 				160DE13B20F5E032006B5BFE /* AppDelegate.m in Sources */,
@@ -353,7 +359,7 @@
 				DEVELOPMENT_TEAM = 3DV85RL7V3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GoogleWebRTCDemoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,7 +379,7 @@
 				DEVELOPMENT_TEAM = 3DV85RL7V3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GoogleWebRTCDemoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

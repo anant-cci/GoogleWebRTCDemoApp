@@ -1,16 +1,20 @@
 PODS:
   - GoogleWebRTC (1.1.21631)
+  - libjingle_peerconnection (11177.2.0)
 
 DEPENDENCIES:
   - GoogleWebRTC
+  - libjingle_peerconnection
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleWebRTC
+    - libjingle_peerconnection
 
 SPEC CHECKSUMS:
   GoogleWebRTC: 080cca52b06fcdc04b698c35abf76538da532dbf
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
 
-PODFILE CHECKSUM: 180ce34f2dcff26dc9344a7b5a8956744d10e3b9
+PODFILE CHECKSUM: 9d409a697e4e9027c45228d47b24de5922e2dfe3
 
 COCOAPODS: 1.5.3
